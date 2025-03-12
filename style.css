@@ -1,0 +1,181 @@
+.div-muibox-root {
+    width: 286px;
+    height: 503px;
+  }
+  
+  .div-muibox-root .overlap-group {
+    position: relative;
+    height: 503px;
+  }
+  
+  .div-muibox-root .div {
+    position: absolute;
+    width: 286px;
+    height: 422px;
+    top: 81px;
+    left: 0;
+    border-radius: 16px;
+    background: linear-gradient(
+      180deg,
+      rgb(0, 167, 111) 0%,
+      rgb(0, 120, 103) 100%
+    );
+  }
+  
+  .div-muibox-root .div-muistack-root {
+    position: absolute;
+    width: 206px;
+    height: 108px;
+    top: 128px;
+    left: 40px;
+  }
+  
+  .div-muibox-root .invite-friends-and-wrapper {
+    position: absolute;
+    width: 108px;
+    height: 108px;
+    top: 0;
+    left: 0;
+  }
+  
+  .div-muibox-root .invite-friends-and {
+    position: absolute;
+    width: 99px;
+    height: 100px;
+    top: 3px;
+    left: 0;
+    font-family: "Public Sans-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: 36px;
+  }
+  
+  .div-muibox-root .div-wrapper {
+    position: absolute;
+    width: 98px;
+    height: 64px;
+    top: 22px;
+    left: 108px;
+  }
+  
+  .div-muibox-root .text-wrapper {
+    position: absolute;
+    width: 98px;
+    height: 56px;
+    top: 3px;
+    left: 0;
+    font-family: "Public Sans-ExtraBold", Helvetica;
+    font-weight: 800;
+    color: #ffffff;
+    font-size: 48px;
+    letter-spacing: 0;
+    line-height: 64px;
+    white-space: nowrap;
+  }
+  
+  .div-muibox-root .praesent-egestas-wrapper {
+    position: absolute;
+    width: 206px;
+    height: 66px;
+    top: 272px;
+    left: 40px;
+  }
+  
+  .div-muibox-root .praesent-egestas {
+    position: absolute;
+    width: 205px;
+    height: 61px;
+    top: 2px;
+    left: 0;
+    font-family: "Public Sans-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 22px;
+  }
+  
+  .div-muibox-root .div-muiinputbase {
+    position: absolute;
+    width: 206px;
+    height: 40px;
+    top: 342px;
+    left: 40px;
+    background-color: #ffffff;
+    border-radius: 8px;
+  }
+  
+  .div-muibox-root .input {
+    position: absolute;
+    width: 126px;
+    height: 29px;
+    top: 5px;
+    left: 12px;
+
+  }
+  
+  .div-muibox-root .div-placeholder {
+    position: relative;
+    height: 17px;
+    top: 6px;
+    border: none;
+    background: none;
+    width: 36px;
+    font-family: "Public Sans-Regular", Helvetica;
+    font-weight: 400;
+    color: #919eab;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+    padding: 0;
+    padding-left: 0;
+  }
+  
+  .div-muibox-root .button-margin {
+    position: absolute;
+    width: 68px;
+    height: 30px;
+    top: 5px;
+    left: 138px;
+  }
+  
+  .div-muibox-root .button {
+    all: unset;
+    box-sizing: border-box;
+    position: relative;
+    width: 64px;
+    height: 30px;
+    background-color: #ffab00;
+    border-radius: 8px;
+  }
+  
+  .div-muibox-root .text-wrapper-2 {
+    position: absolute;
+    width: 35px;
+    height: 15px;
+    top: 6px;
+    left: 15px;
+    font-family: "Public Sans-Bold", Helvetica;
+    font-weight: 700;
+    color: #212b36;
+    font-size: 13px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 22.3px;
+    white-space: nowrap;
+  }
+  
+  .div-muibox-root .character-png {
+    position: absolute;
+    width: 140px;
+    height: 201px;
+    top: 0;
+    left: 40px;
+    background-image: url(./img/character-11.png);
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  
