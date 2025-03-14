@@ -11,13 +11,12 @@
         <div class="div">
           <div class="div-muistack-root">
             <div class="invite-friends-and-wrapper">
-              <div class="invite-friends-and">Invite<br />friends<br />and earn</div>
+              <div class="invite-friends-and" id="name">data.name</div>
             </div>
-            <div class="div-wrapper"><div class="text-wrapper">$50</div></div>
           </div>
           <div class="praesent-egestas-wrapper">
-            <p class="praesent-egestas">
-              Praesent egestas tristique nibh.<br />Duis lobortis massa imperdiet<br />quam.
+            <p class="praesent-egestas" id="description">
+             
             </p>
           </div>
           <div class="div-muiinputbase">
@@ -27,8 +26,31 @@
             </div>
           </div>
         </div>
-        <div class="character-png"></div>
+        <div class="character-png">
+          <figure>
+            <img id="image" src="" />
+          </figure>
+        </div>
       </div>
     </div>
+    <script>
+      async function fetchCharacterData() {
+          try {
+              const response = await fetch('https://dragonball-api.com/api/characters/14');
+              const data = await response.json();
+              console.log(data.name);
+              console.log(data.description);
+              console.log(data.image);
+              document.getElementById('name').textContent = data.name;
+              document.getElementById('description').textContent = data.description;
+              document.getElementById('image').src = data.image;
+
+
+          } catch (error) {
+              console.error('Error fetching character data:', error);
+          }
+      }
+      fetchCharacterData();
+  </script>
   </body>
 </html>
